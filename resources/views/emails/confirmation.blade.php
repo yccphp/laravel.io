@@ -5,11 +5,11 @@
 </head>
 <body>
 
-<h2>Verify your email address for your Laravel.io account</h2>
+<h2>请验证你在 Laravel.ren 上注册的账户</h2>
 
 <p>
-    Thanks for creating an account on Laravel.io.<br>
-    Please follow the link below to verify your email address
+    您在 Laravel.ren 上创建了一个账户.<br>
+    请点击下面链接验证您的邮箱
 </p>
 <p><a href="{{ route('auth.confirm', $confirmationCode) }}">{{ route('auth.confirm', $confirmationCode) }}</a></p>
 
