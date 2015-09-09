@@ -1,7 +1,7 @@
 <footer class="site-footer">
     <div class="container">
         <h2>Sponsors</h2>
-        <p>Laravel.io wouldn't be here without the help of these amazing services:</p>
+        <p>Laravel.ren 感谢以下赞助:</p>
 
         <div class="sponsors">
             <div class="row">

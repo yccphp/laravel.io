@@ -6,7 +6,7 @@
 
 @section('content')
     <section class="forum">
-        <h1>Forum</h1>
+        <h1>讨论</h1>
 
         @if (Input::has('tags'))
             <div class="tags">Threads tagged with {{{ Input::get('tags') }}}.</div>

@@ -2,25 +2,25 @@
 
 return [
     'sections' => [
-        'All Threads' => [
+        '所有主题' => [
             'tags' => '',
         ],
-        'Installation / Configuration' => [
+        '安装 / 配置' => [
             'tags' => 'installation,configuration'
         ],
-        'Authentication / Security' => [
+        '认证 / 安全' => [
             'tags' => 'authentication,security'
         ],
-        'Requests / Input / Responses' => [
+        '请求 / 输入 / 响应' => [
             'tags' => 'requests,input'
         ],
-        'Session / Cache' => [
+        'Session / 缓存' => [
             'tags' => 'session,cache'
         ],
-        'Database / Eloquent' => [
+        '数据库 / Eloquent' => [
             'tags' => 'database,eloquent'
         ],
-        'Packages / IoC ' => [
+        '扩展包 / IoC ' => [
             'tags' => 'packages,ioc'
         ],
         'Views / Blade / Forms' => [
@@ -29,10 +29,10 @@ return [
         'Mail / Queues' => [
             'tags' => 'mail,queues'
         ],
-        'Local Community Meetups' => [
+        '社区聚会' => [
             'tags' => 'meetups'
         ],
-        'Laravel.io Site and Community' => [
+        'Laravel.ren 社区建议' => [
             'tags'  => 'laravelio',
         ]
     ],

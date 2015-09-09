@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>{{ ! empty($title) ? $title . ' - ' : '' }}Laravel.io - The Laravel Community Portal</title>
+    <title>{{ ! empty($title) ? $title . ' - ' : '' }}Laravel.ren - Laravel 中国论坛</title>
 
     @section('styles')
       <link rel="stylesheet" href="{{ asset('stylesheets/app.css') }}">

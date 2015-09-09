@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>{{ ! empty($title) ? $title . ' - ' : '' }}Laravel.io - The Laravel Community Portal</title>
+    <title>{{ ! empty($title) ? $title . ' - ' : '' }}Laravel.ren - Laravel 中国论坛</title>
 
     @section('styles')
       <link rel="stylesheet" href="{{ asset('stylesheets/app.css') }}?v=2">
@@ -19,9 +19,9 @@
 
 @if (Auth::check() && ! Auth::user()->isConfirmed())
     <div style="background: #B79B6A; padding: .75em; text-align:center; color:#eee; font-size:1.1em">
-        Please confirm your email address ({{ Auth::user()->email }}).
-        <a href="{{ route('auth.reconfirm') }}" style="color:#eee;">Re-send confirmation email.</a>
-        <a href="{{ route('user.settings', Auth::user()->name) }}" style="color:#eee;">Change e-mail address.</a>
+        请激活你的账号 ({{ Auth::user()->email }}).
+        <a href="{{ route('auth.reconfirm') }}" style="color:#eee;">没收到？重新发送试试吧.</a>
+        <a href="{{ route('user.settings', Auth::user()->name) }}" style="color:#eee;">更换邮箱.</a>
     </div>
 @endif
 
