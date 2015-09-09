@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="auth">
-        <h1>We're going to create an account with this information.</h1>
+        <h1>创建账户.</h1>
 
         <div class="user">
             {!! Form::open() !!}
@@ -27,13 +27,7 @@
                         <p>{!! $errors->first('email') !!}</p>
                     @endif
 
-                    <p>{!! app('captcha')->display(); !!}</p>
-
-                    @if ($errors->has('g-recaptcha-response'))
-                      g  <p>Please fill in the captcha field correctly.</p>
-                    @endif
-
-                    {!! Form::submit('Create My Laravel.io Account', ['class' => 'button']) !!}
+                    {!! Form::submit('创建我的 Laravel.ren 账户', ['class' => 'button']) !!}
                 </div>
             {!! Form::close() !!}
         </div>

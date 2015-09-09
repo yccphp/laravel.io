@@ -145,7 +145,6 @@ return [
         McCool\LaravelAutoPresenter\LaravelAutoPresenterServiceProvider::class,
         Mews\Purifier\PurifierServiceProvider::class,
         Bugsnag\BugsnagLaravel\BugsnagLaravelServiceProvider::class,
-        Anhskohbo\NoCaptcha\NoCaptchaServiceProvider::class,
 
         /*
          * Application Service Providers...

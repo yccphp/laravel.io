@@ -100,16 +100,6 @@ class AuthController extends Controller implements GithubAuthenticatorListener, 
             return redirect()->route('login');
         }
 
-        /** @var \Illuminate\Validation\Validator $validator */
-        $validator = Validator::make(Input::only('g-recaptcha-response'), [
-            'g-recaptcha-response' => 'required|captcha'
-        ]);
-
-        if ($validator->fails()) {
-            return redirect()->route('signup')
-                ->exceptInput('g-recaptcha-response')
-                ->withErrors($validator->errors());
-        }
 
         $data = Session::get('githubData');
         $data['ip'] = Request::ip();
